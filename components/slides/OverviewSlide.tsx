@@ -53,14 +53,14 @@ export default function OverviewSlide() {
             className="font-display text-dm-white leading-tight"
             style={{ fontSize: 'clamp(40px, 4.5vw, 72px)' }}
           >
-            The World's Greatest
+            The World&apos;s Greatest
             <br />
             <span className="text-gold-gradient">Commercial Stage.</span>
           </h2>
 
           <p className="font-body text-lg text-dm-muted leading-relaxed mt-6 max-w-lg">
             Located at the base of the Burj Khalifa in Downtown Dubai,
-            The Dubai Mall is the world's most visited destination —
+            The Dubai Mall is the world&apos;s most visited destination —
             a 5.9 million square foot city within a city, drawing
             visitors from 90+ countries every single year.
           </p>

@@ -65,7 +65,7 @@ export default function StatsSlide() {
           className="font-display text-dm-white text-center mb-4"
           style={{ fontSize: 'clamp(36px, 5vw, 64px)' }}
         >
-          The Numbers Don't Lie.
+          The Numbers Don&apos;t Lie.
         </motion.h2>
 
         <motion.p
@@ -74,7 +74,7 @@ export default function StatsSlide() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="text-dm-muted text-center text-xl mb-12 font-body"
         >
-          This isn't a mall. It's the world's most powerful commercial platform.
+          This isn&apos;t a mall. It&apos;s the world&apos;s most powerful commercial platform.
         </motion.p>
 
         {/* Stats grid */}

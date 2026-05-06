@@ -55,7 +55,7 @@ export default function LuxurySlide() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="font-body text-dm-muted text-lg max-w-2xl leading-relaxed mb-12"
         >
-          The only address in the Middle East where the world's most
+          The only address in the Middle East where the world&apos;s most
           prestigious houses all live together.
         </motion.p>
 
@@ -91,8 +91,8 @@ export default function LuxurySlide() {
         className="absolute bottom-10 left-0 right-0 py-6 border-t border-b border-dm-gold/10 bg-dm-gold/[0.04] z-10 px-12"
       >
         <p className="font-display text-dm-white text-xl italic text-center leading-relaxed">
-          "Fashion Avenue isn't just a wing. It's the most concentrated expression
-          <br />of global luxury in one physical space."
+          &quot;Fashion Avenue isn&apos;t just a wing. It&apos;s the most concentrated expression
+          <br />of global luxury in one physical space.&quot;
         </p>
       </motion.div>
     </div>

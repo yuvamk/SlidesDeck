@@ -57,7 +57,7 @@ export default function Preloader({ onComplete }: PreloaderProps) {
                   Dubai Mall
                 </span>
                 <div className="mt-3 text-section-label text-dm-gold tracking-[0.4em]">
-                  The World's Greatest Commercial Stage
+                  The World&apos;s Greatest Commercial Stage
                 </div>
               </motion.div>
             )}

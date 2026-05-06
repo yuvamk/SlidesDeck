@@ -65,7 +65,7 @@ export default function HeroSlide() {
           <div className="flex items-center gap-4 justify-center mb-6">
             <div className="w-12 h-px bg-dm-gold/60" />
             <span className="text-section-label text-dm-gold tracking-[0.3em]">
-              THE WORLD'S STAGE
+              THE WORLD&apos;S STAGE
             </span>
             <div className="w-12 h-px bg-dm-gold/60" />
           </div>
@@ -86,7 +86,7 @@ export default function HeroSlide() {
           variants={stagger.item}
           className="font-body text-xl text-dm-muted text-center mt-6 max-w-2xl"
         >
-          The world's most visited retail destination — and the most powerful commercial platform on earth.
+          The world&apos;s most visited retail destination — and the most powerful commercial platform on earth.
         </motion.p>
 
         <motion.div

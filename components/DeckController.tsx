@@ -103,7 +103,11 @@ export default function DeckController() {
       if (touchStartX.current === null) return
       const delta = touchStartX.current - e.changedTouches[0].clientX
       if (Math.abs(delta) > 50) {
-        delta > 0 ? goNext() : goBack()
+        if (delta > 0) {
+          goNext()
+        } else {
+          goBack()
+        }
       }
       touchStartX.current = null
     }
