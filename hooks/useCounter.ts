@@ -14,17 +14,15 @@ export function useCounter(
       targets.forEach(({ selector, endValue, decimals = 0 }) => {
         const el = document.querySelector(selector)
         if (!el) return
-        gsap.fromTo(
-          { value: 0 },
-          {
-            value: endValue,
-            duration: 2,
-            ease: 'power2.out',
-            onUpdate: function () {
-              el.textContent = parseFloat(this.targets()[0].value.toFixed(decimals)).toString()
-            },
-          }
-        )
+        const obj = { value: 0 }
+        gsap.to(obj, {
+          value: endValue,
+          duration: 2,
+          ease: 'power2.out',
+          onUpdate: () => {
+            el.textContent = obj.value.toFixed(decimals)
+          },
+        })
       })
     }
     if (!isActive) {
