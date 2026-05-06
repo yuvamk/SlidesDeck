@@ -1,5 +1,5 @@
 'use client'
-import { motion } from 'framer-motion'
+import { motion, Variants } from 'framer-motion'
 import dynamic from 'next/dynamic'
 import { useState } from 'react'
 import { useDeck } from '@/hooks/useDeck'
@@ -7,7 +7,7 @@ import VideoModal from '@/components/ui/VideoModal'
 
 const HeroParticles = dynamic(() => import('@/components/three/HeroParticles'), { ssr: false })
 
-const stagger = {
+const stagger: { container: Variants; item: Variants } = {
   container: {
     hidden: {},
     show: {
